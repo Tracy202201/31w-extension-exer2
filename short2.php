@@ -34,7 +34,6 @@ add_action('wp_enqueue_scripts', 'short2_31w_enqueue');
 
 function genere_adresse()
 {
-
     /////////////////////////////////////// HTML
     $contenu = '<code class="code__adresse" style="display:none">';
     $contenu .= get_the_content();
