@@ -52,18 +52,14 @@
 
     creer_boite_modale()
     
-    
-
     let elmOK = document.querySelector('#mon_bouton')
 
     elmOK.addEventListener('mousedown', function(){
         console.log('Bravo le script fonctionne');
         elmBoite__modale.classList.add('boite__modale__ouvrir'); 
-       
     })
 
     elmBoite__X.addEventListener('mousedown', function(){
-
         elmBoite__modale.classList.remove('boite__modale__ouvrir');
     })
 
